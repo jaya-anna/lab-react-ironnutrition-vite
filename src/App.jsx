@@ -17,12 +17,16 @@ function App() {
 
       <Divider>Search</Divider>
 
-      <SearchBar foods={foods} setFoodsState={setFoodsState} />
+      <SearchBar 
+      foods={foods} 
+      setFoodsState={setFoodsState} />
 
       <Divider>Food List</Divider>
 
       <Row style={{ width: "100%", justifyContent: "center" }}>
-        <FoodBox foodsState={foodsState} setFoodsState={setFoodsState} />
+        <FoodBox 
+        foodsState={foodsState} 
+        setFoodsState={setFoodsState} />
       </Row>
     </div>
   );
